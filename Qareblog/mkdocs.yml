@@ -1,0 +1,29 @@
+site_name: QareBlog
+site_url: https://example.com
+theme:
+  name: material
+  language: fa
+  features:
+    - navigation.top
+    - navigation.sections
+    - content.code.copy
+  palette:
+    - scheme: default
+
+plugins:
+  - search
+  - blog:
+      blog_dir: blog
+      post_dir: blog/posts
+      post_url_format: "{date}/{slug}"
+      archive: true
+      categories: true
+      tags: true
+nav:
+  - خانه: index.md
+  - درباره: about.md
+  - وبلاگ: blog/index.md
+
+
+extra_css:
+  - stylesheets/extra.css
