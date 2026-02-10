@@ -3,12 +3,19 @@ site_url: https://example.com
 theme:
   name: material
   language: fa
-  features:
-    - navigation.top
-    - navigation.sections
-    - content.code.copy
   palette:
     - scheme: default
+      primary: blue grey
+      toggle:
+        icon: material/weather-night
+        name: حالت تاریک
+    - scheme: slate
+      primary: blue grey
+      toggle:
+        icon: material/weather-sunny
+        name: حالت روشن
+features:
+    - navigation.indexes
 
 plugins:
   - search
@@ -19,11 +26,19 @@ plugins:
       archive: true
       categories: true
       tags: true
+  - macros
+
 nav:
   - خانه: index.md
   - درباره: about.md
-  - وبلاگ: blog/index.md
+  - تماس: contact.md
+  # - وبلاگ: blog/index.md
+
+  # - وبلاگ: blog/index.md
 
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/posts-index.js

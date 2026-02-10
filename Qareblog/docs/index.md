@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+<!-- # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
@@ -14,4 +14,35 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+        ...       # Other markdown pages, images and other files. -->
+
+#خب این وبلاگ جدید من هست امیدوارم حداقل اینیکی موندگار باشه
+
+---
+
+## اینجا چی پیدا می‌کنی؟
+- عمدتا مطالبی که برام جالب باشن رو مینویسم 
+-  لاگ یادگیری (برنامه‌نویسی / تکنولوژی / هر چیزی که درگیرشم)
+-  پروژه‌ها و چیزهایی که می‌سازم
+
+---
+
+## شروع سریع
+- درباره من → [درباره](about.md)
+<!-- - رفتن به نوشته‌ها → [وبلاگ](blog/index.md) -->
+
+---
+
+## چند نوشته‌ی پیشنهادی
+> این بخش رو فعلاً دستی پر کن (بعداً اگر خواستی خودکارش می‌کنیم)
+
+- [اولین پست من](blog/posts/2026-01-27-first-post.md)
+
+---
+
+## ارتباط
+اگر دوست داشتی حرف بزنی یا چیزی پیشنهاد بدی:
+- ایمیل: `your@email.com`
+- گیت‌هاب: `https://github.com/yourusername`
+
+> «کم می‌نویسم ولی واقعی.»
