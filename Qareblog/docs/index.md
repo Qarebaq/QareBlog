@@ -36,7 +36,8 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 ## چند نوشته‌ی پیشنهادی
 > این بخش رو فعلاً دستی پر کن (بعداً اگر خواستی خودکارش می‌کنیم)
 
-- [اولین پست من](blog/posts/2026-01-27-first-post.md)
+<div id="posts-list"></div>
+<div id="posts-pagination"></div>
 
 ---
 

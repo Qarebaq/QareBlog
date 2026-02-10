@@ -24,12 +24,10 @@
     const m = loc.match(/(\d{4}-\d{2}-\d{2})/);
     return m ? m[1] : "0000-00-00";
   }
+function isPost(loc) {
+  return loc.startsWith("blog/");
+}
 
-  function isPost(loc) {
-    // پست‌ها معمولاً زیر blog/ هستند و تاریخ دارند
-    // (اگر مسیرت فرق دارد، همین regex را دقیق‌تر می‌کنیم)
-    return /blog\/.*\d{4}-\d{2}-\d{2}/.test(loc) || /blog\/posts\/\d{4}-\d{2}-\d{2}/.test(loc);
-  }
 
   function renderPage(posts, page) {
     const totalPages = Math.max(1, Math.ceil(posts.length / perPage));

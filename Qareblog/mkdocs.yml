@@ -26,7 +26,6 @@ plugins:
       archive: true
       categories: true
       tags: true
-  - macros
 
 nav:
   - خانه: index.md
