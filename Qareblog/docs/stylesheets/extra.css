@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;300;400;500;700;900&display=swap");
+
+/* Material for MkDocs uses these CSS variables */
+:root {
+  --md-text-font: "Vazirmatn";
+  --md-code-font: "Vazirmatn";
+}
+
+body,
+.md-typeset,
+.md-content,
+.md-nav,
+.md-header,
+.md-footer,
+button,
+input,
+textarea {
+  font-family: "Vazirmatn", sans-serif !important;
+}

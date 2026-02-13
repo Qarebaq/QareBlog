@@ -1,8 +1,11 @@
 site_name: QareBlog
 site_url: https://example.com
+
 theme:
   name: material
   language: fa
+  features:
+    - navigation.indexes
   palette:
     - scheme: default
       primary: blue grey
@@ -14,8 +17,6 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: حالت روشن
-features:
-    - navigation.indexes
 
 plugins:
   - search
@@ -31,13 +32,13 @@ nav:
   - خانه: index.md
   - درباره: about.md
   - تماس: contact.md
-  # - وبلاگ: blog/index.md
-
-  # - وبلاگ: blog/index.md
-
 
 extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/posts-index.js
+
+
+
+
